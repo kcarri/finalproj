@@ -1,0 +1,58 @@
+@import './vendor/normalize';
+@import './vendor/animate';
+@import './partials/base';
+@import './partials/variables';
+
+body {
+    background-image: url("/images/lightblue.jpg");
+    background-repeat: repeat;
+
+}
+
+
+.cycle-slideshow { width: 50% }
+.cycle-slideshow img { width: 100%; height: auto }
+
+.font {
+    font-family: 'Pangolin', cursive;
+}
+
+.pad {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+  }
+
+.centered {
+    margin: auto;
+}
+
+body {
+    background-image:linear-gradient(light-grey, #d9d9d9);
+}
+
+div.relative {
+    position: relative;
+    padding-left:50px;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-right:50px;
+    width: 100%;
+  } 
+  
+  div.absolute {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 200px;
+  }
+.righted {
+    padding-right:90px;
+}
+
+.lefted {
+    padding-left:20px;
+}
+  
